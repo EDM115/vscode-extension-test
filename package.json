@@ -4,7 +4,7 @@
   "description": "Just a test",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.78.0"
+    "vscode": "^2023.0.0"
   },
   "categories": [
     "Other"
