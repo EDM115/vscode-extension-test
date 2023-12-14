@@ -1,11 +1,11 @@
 repo_name: EDM115/vscode-extension-test
-report_id: 4e0ef3ea6066df92ef804f3d61abe7ef
+report_id: 562fbd6c34d6667f963ce802b19d60ef
 repo_type: Public
-timestamp: '2023-11-09T16:02:49+00:00'
+timestamp: '2023-12-14T09:43:50+00:00'
 requested_by: EDM115
 provider: github
 branch: main
-detected_tools_count: 11
+detected_tools_count: 13
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -20,14 +20,27 @@ tools:
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
   website_url: http://www.typescriptlang.org
-  version: 5.2.2
+  version: 5.3.3
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/EDM115/vscode-extension-test/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: EDM115
+  last_updated_on: 2023-05-18 10:03:41.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
   detection_source: package.json
   last_updated_by: EDM115
   last_updated_on: 2023-05-18 10:03:41.000000000 Z
@@ -75,7 +88,18 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/EDM115/vscode-extension-test/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: EDM115
+  last_updated_on: 2023-05-18 10:03:41.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
   detection_source: package.json
   last_updated_by: EDM115
   last_updated_on: 2023-05-18 10:03:41.000000000 Z
@@ -100,35 +124,35 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16391/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/EDM115/vscode-extension-test/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-10-24 00:23:24.000000000 Z
 - name: "@types/mocha"
   description: TypeScript definitions for mocha
   package_url: https://www.npmjs.com/@types/mocha
-  version: 10.0.4
+  version: 10.0.6
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/EDM115/vscode-extension-test/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-10-24 00:23:24.000000000 Z
 - name: "@types/node"
   description: TypeScript definitions for Node.js
   package_url: https://www.npmjs.com/@types/node
-  version: 20.9.0
+  version: 20.10.4
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/EDM115/vscode-extension-test/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-10-24 00:23:24.000000000 Z
@@ -142,7 +166,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/EDM115/vscode-extension-test/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-05-29 08:20:13.000000000 Z
