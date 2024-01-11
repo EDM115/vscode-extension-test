@@ -34,7 +34,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EDM115/vscode-extension-test](https://github.com/EDM115/vscode-extension-test)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|13<br/>Tools used|01/05/24 <br/>Report generated|
+|13<br/>Tools used|01/11/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -134,7 +134,7 @@ Full tech stack [here](/techstack.md)
 |:------|:------|:------|:------|:------|:------|
 |[@types/glob](https://www.npmjs.com/@types/glob)|v8.1.0|10/24/23|renovate[bot] |MIT|N/A|
 |[@types/mocha](https://www.npmjs.com/@types/mocha)|v10.0.6|10/24/23|renovate[bot] |MIT|N/A|
-|[@types/node](https://www.npmjs.com/@types/node)|v20.10.4|10/24/23|renovate[bot] |MIT|N/A|
+|[@types/node](https://www.npmjs.com/@types/node)|v20.11.0|10/24/23|renovate[bot] |MIT|N/A|
 |[glob](https://www.npmjs.com/glob)|v10.3.10|05/29/23|renovate[bot] |ISC|N/A|
 
 <br/>
